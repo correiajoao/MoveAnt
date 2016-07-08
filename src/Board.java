@@ -34,7 +34,7 @@ public class Board extends JPanel implements ActionListener {
 	@Override
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
-		java.awt.Image image = new ImageIcon("grama.jpg").getImage();
+		java.awt.Image image = new ImageIcon("ground.jpg").getImage();
 		g.drawImage(image, 0, 0, null);
 		
 		doDrawing(g);

@@ -10,7 +10,7 @@ public class MovingSpriteEx extends JFrame {
 
 		add(new Board());
 
-		setSize(640,470);
+		setSize(975,725);
 		setResizable(false);
 
 		setTitle("Moving ant");
